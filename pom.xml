@@ -6,7 +6,7 @@
     <groupId>me.EzCoins</groupId>
     <artifactId>MiniBlocks</artifactId>
 
-    <version>UNOFFICIAL</version>
+    <version>Efina 1.0</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>

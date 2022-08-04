@@ -16,10 +16,10 @@ public class ItemSetup {
 
     public static final SlimefunItemStack BlockReducer = new SlimefunItemStack("BLOCKREDUCER",
             Material.STONECUTTER,
-            "&6Block Reducer",
+            "&6方塊縮小機",
             "",
-            "&7Turns the desired block into a",
-            "&7smaller version of itself.",
+            "&7將方塊縮小成其",
+            "&7自身較小的版本.",
             "",
             MachineLore.energyPerSecond(me.EzCoins.MiniBlocks.Machines.BlockReducer.ENERGY_CONSUMPTION)
     );

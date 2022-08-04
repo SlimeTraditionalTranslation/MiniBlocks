@@ -1,0 +1,9 @@
+version: "1"
+rules:
+  - base: master
+    upstream: TheRealEzCoins:master
+    mergeMethod: merge
+    conflictReviewers:
+      - weiii-joe
+      - xwinhyukx
+      - xMikux

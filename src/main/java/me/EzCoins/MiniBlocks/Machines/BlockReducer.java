@@ -208,7 +208,7 @@ public class BlockReducer extends AbstractMachineBlock  implements RecipeDisplay
 
     @Override
     public ItemStack getProgressBar() {
-        return new CustomItemStack(Material.DIAMOND_AXE, "&bReducing...");
+        return new CustomItemStack(Material.DIAMOND_AXE, "&b縮小中...");
     }
 
     @Override

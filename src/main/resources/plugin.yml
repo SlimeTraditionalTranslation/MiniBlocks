@@ -5,7 +5,7 @@ name: MiniBlocks
 author: EzCoins
 
 ## CHANGE this to a meaninful but short description of your plugin.
-description: A generic Slimefun4-Addon
+description: 黏液科技附加 迷你方塊 繁體翻譯版.
 
 ## CHANGE this to the path of the class that extends JavaPlugin.
 main: me.EzCoins.MiniBlocks.MiniBlocks

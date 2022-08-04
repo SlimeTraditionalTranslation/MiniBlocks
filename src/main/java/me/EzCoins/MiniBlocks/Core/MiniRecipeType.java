@@ -15,9 +15,9 @@ public class MiniRecipeType {
                     new SlimefunItemStack(
                             "BLOCKREDUCER",
                             Material.STONECUTTER,
-                            "&9Block Reducer"),
+                            "&9方塊縮小機"),
                             "",
-                                  "&7Turns the desired block into a",
-                                  "&7smaller version of itself.");
+                                  "&7將方塊縮小成其",
+                                  "&7自身較小的版本.");
 
 }

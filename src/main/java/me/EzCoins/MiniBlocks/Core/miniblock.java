@@ -10,6 +10,7 @@ import org.bukkit.inventory.ItemStack;
 
 import java.util.Locale;
 
+import static me.EzCoins.MiniBlocks.Core.TranslateBlocks.translateBlocksName;
 import static me.EzCoins.MiniBlocks.MiniBlocks.plugin;
 
 public final class miniblock  {
@@ -19,7 +20,7 @@ public final class miniblock  {
         return new SlimefunItemStack(
                 name.toUpperCase(Locale.ROOT).replace(" ", "_") + "MINIBLOCK",
                 customHeads.getPlayerHead(),
-                "&9" + name.substring(0, 1).toUpperCase() + name.substring(1).toLowerCase().replace("_", " ") +" &8(MiniBlock)"
+                "&9" + translateBlocksName(name) +" &8(迷你方塊)"
         );
     }
 

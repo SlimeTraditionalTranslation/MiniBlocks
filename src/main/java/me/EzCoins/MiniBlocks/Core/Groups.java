@@ -20,16 +20,16 @@ public class Groups {
     }
 
     public static final NestedItemGroup MAINMINIBLOCK = new NestedItemGroup(new NamespacedKey(MiniBlocks.getInstance(), "mainMiniBlocks"),
-            new CustomItemStack(GUIHeads.MAIN_GROUP.getPlayerHead(), "&eMiniBlocks"));
+            new CustomItemStack(GUIHeads.MAIN_GROUP.getPlayerHead(), "&e迷你方塊"));
 
     public static final ItemGroup BLOCKS = new SubItemGroup(
             new NamespacedKey(MiniBlocks.getInstance(), "MiniBlocksBlocks"), MAINMINIBLOCK,
-            new CustomItemStack(GUIHeads.BLOCKS_GROUP.getPlayerHead(), "&7Blocks"), 1
+            new CustomItemStack(GUIHeads.BLOCKS_GROUP.getPlayerHead(), "&7方塊"), 1
     );
 
     public static final ItemGroup MACHINES = new SubItemGroup(
             new NamespacedKey(MiniBlocks.getInstance(), "MiniBlocksMachines"), MAINMINIBLOCK,
-            new CustomItemStack(Material.FURNACE_MINECART, "&7Machines"), 2
+            new CustomItemStack(Material.FURNACE_MINECART, "&7機器"), 2
     );
 
 
