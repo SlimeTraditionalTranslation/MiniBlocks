@@ -1,7 +1,7 @@
-package me.EzCoins.MiniBlocks.Core;
+package me.EzCoins.MiniBlocks.utils;
 
 public class TranslateBlocks {
-    public static String translateBlocksName(String name) {
+    public static String translateBlockName(String name) {
         switch (name) {
             case "STONE":
                 return "石頭";
