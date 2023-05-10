@@ -5,6 +5,7 @@ import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import me.EzCoins.MiniBlocks.MiniBlocks;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
+import org.mini2Dx.gettext.GetText;
 
 public class MiniRecipeType {
 
@@ -15,9 +16,9 @@ public class MiniRecipeType {
                     new SlimefunItemStack(
                             "BLOCKREDUCER",
                             Material.STONECUTTER,
-                            "&9方塊縮小機"),
+                            GetText.tr("&9Block Reducer")),
                             "",
-                                  "&7將方塊縮小成其",
-                                  "&7自身較小的版本.");
+                                  GetText.tr("&7Turns the desired block into a"),
+                                  GetText.tr("&7smaller version of itself."));
 
 }

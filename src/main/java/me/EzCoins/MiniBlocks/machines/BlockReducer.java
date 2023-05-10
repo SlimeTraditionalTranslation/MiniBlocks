@@ -12,6 +12,7 @@ import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecip
 import org.bukkit.Material;
 import org.bukkit.block.data.type.TNT;
 import org.bukkit.inventory.ItemStack;
+import org.mini2Dx.gettext.GetText;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,7 +47,7 @@ public class BlockReducer extends AbstractMachineBlock  implements RecipeDisplay
 
     @Override
     public ItemStack getProgressBar() {
-        return new CustomItemStack(Material.DIAMOND_AXE, "&b縮小中...");
+        return new CustomItemStack(Material.DIAMOND_AXE, GetText.tr("&bReducing..."));
     }
 
     @Override

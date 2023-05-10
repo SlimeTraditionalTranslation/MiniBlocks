@@ -13,16 +13,17 @@ import me.EzCoins.MiniBlocks.MiniBlocks;
 import me.EzCoins.MiniBlocks.utils.CustomHead;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
+import org.mini2Dx.gettext.GetText;
 
 public class ItemSetup {
 
     public static final SlimefunItemStack BLOCK_REDUCER = new SlimefunItemStack(
             "BLOCKREDUCER",
             Material.STONECUTTER,
-            "&6方塊縮小機",
+            GetText.tr("&6Block Reducer"),
             "",
-            "&7將方塊縮小成其",
-            "&7自身較小的版本.",
+            GetText.tr("&7Turns the desired block into a"),
+            GetText.tr("&7smaller version of itself."),
             "",
             MachineLore.energyPerSecond(me.EzCoins.MiniBlocks.machines.BlockReducer.ENERGY_CONSUMPTION)
     );
@@ -30,10 +31,10 @@ public class ItemSetup {
     public static final SlimefunItemStack BLOCK_EXPANDER = new SlimefunItemStack(
             "BLOCKEXPANDER",
             Material.SMITHING_TABLE,
-            "&6方塊放大機",
+            GetText.tr("&6Block Expander"),
             "",
-            "&7將迷你方塊放大回",
-            "&7它原本的型態.",
+            GetText.tr("&7Turns the desired MiniBlock into"),
+            GetText.tr("&7its original form."),
             "",
             MachineLore.energyPerSecond(me.EzCoins.MiniBlocks.machines.BlockReducer.ENERGY_CONSUMPTION)
     );
@@ -42,7 +43,7 @@ public class ItemSetup {
     public static final SlimefunItemStack SYNTHETIC_BOOK = new SlimefunItemStack(
             "SYNTHETICBOOK",
             Material.ENCHANTED_BOOK,
-            "&a合成附魔書"
+            GetText.tr("&aSynthetic Enchanted Book")
     );
 
     public static void setup(MiniBlocks plugin) {

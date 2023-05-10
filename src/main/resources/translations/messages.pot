@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-10 11:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/main/java/me/EzCoins/MiniBlocks/core/Groups.java:22
+msgid "&eMiniBlocks"
+msgstr ""
+
+#: src/main/java/me/EzCoins/MiniBlocks/core/Groups.java:26
+msgid "&7Blocks"
+msgstr ""
+
+#: src/main/java/me/EzCoins/MiniBlocks/core/Groups.java:31
+msgid "&7Machines"
+msgstr ""
+
+#: src/main/java/me/EzCoins/MiniBlocks/core/Groups.java:36
+msgid "&7Synthetic Resources"
+msgstr ""
+
+#: src/main/java/me/EzCoins/MiniBlocks/core/MiniRecipeType.java:18
+msgid "&9Block Reducer"
+msgstr ""
+
+#: src/main/java/me/EzCoins/MiniBlocks/core/MiniRecipeType.java:20
+#: src/main/java/me/EzCoins/MiniBlocks/itemsetup/ItemSetup.java:24
+msgid "&7Turns the desired block into a"
+msgstr ""
+
+#: src/main/java/me/EzCoins/MiniBlocks/core/MiniRecipeType.java:21
+#: src/main/java/me/EzCoins/MiniBlocks/itemsetup/ItemSetup.java:25
+msgid "&7smaller version of itself."
+msgstr ""
+
+#: src/main/java/me/EzCoins/MiniBlocks/itemsetup/ItemSetup.java:22
+msgid "&6Block Reducer"
+msgstr ""
+
+#: src/main/java/me/EzCoins/MiniBlocks/itemsetup/ItemSetup.java:33
+msgid "&6Block Expander"
+msgstr ""
+
+#: src/main/java/me/EzCoins/MiniBlocks/itemsetup/ItemSetup.java:35
+msgid "&7Turns the desired MiniBlock into"
+msgstr ""
+
+#: src/main/java/me/EzCoins/MiniBlocks/itemsetup/ItemSetup.java:36
+msgid "&7its original form."
+msgstr ""
+
+#: src/main/java/me/EzCoins/MiniBlocks/itemsetup/ItemSetup.java:45
+msgid "&aSynthetic Enchanted Book"
+msgstr ""
+
+#: src/main/java/me/EzCoins/MiniBlocks/machines/BlockExpander.java:49
+msgid "&bExpanding..."
+msgstr ""
+
+#: src/main/java/me/EzCoins/MiniBlocks/machines/BlockReducer.java:49
+msgid "&bReducing..."
+msgstr ""
+
+#: src/main/java/me/EzCoins/MiniBlocks/utils/GUIBuilder.java:11
+msgid "Input"
+msgstr ""
+
+#: src/main/java/me/EzCoins/MiniBlocks/utils/GUIBuilder.java:16
+msgid "Output"
+msgstr ""
+
+#: src/main/java/me/EzCoins/MiniBlocks/utils/MiniBlockUtils.java:46
+msgid " &8(MiniBlock)"
+msgstr ""

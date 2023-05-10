@@ -10,6 +10,7 @@ import me.EzCoins.MiniBlocks.utils.CustomHead;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecipe;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
+import org.mini2Dx.gettext.GetText;
 
 import javax.annotation.Nonnull;
 import java.util.ArrayList;
@@ -46,7 +47,7 @@ public class BlockExpander extends AbstractMachineBlock  implements RecipeDispla
 
     @Override
     public ItemStack getProgressBar() {
-        return new CustomItemStack(Material.DIAMOND_AXE, "&b放大中...");
+        return new CustomItemStack(Material.DIAMOND_AXE, GetText.tr("&bExpanding..."));
     }
 
     @Override
