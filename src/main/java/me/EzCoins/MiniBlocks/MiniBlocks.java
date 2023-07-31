@@ -3,7 +3,7 @@ package me.EzCoins.MiniBlocks;
 import io.github.mooy1.infinitylib.core.AbstractAddon;
 import io.github.mooy1.infinitylib.metrics.bukkit.Metrics;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
+import io.github.bakedlibs.dough.updater.GitHubBuildsUpdaterTR;
 import me.EzCoins.MiniBlocks.core.Groups;
 import me.EzCoins.MiniBlocks.itemsetup.ItemSetup;
 import me.EzCoins.MiniBlocks.utils.CustomHead;
@@ -74,8 +74,8 @@ public final class MiniBlocks extends AbstractAddon implements SlimefunAddon {
             saveDefaultConfig();
         }
 
-        if (getConfig().getBoolean("options.auto-update") && getDescription().getVersion().startsWith("EFI - ")) {
-            new GitHubBuildsUpdater(this, getFile(), "SlimeTraditionalTranslation/MiniBlocks/master").start();
+        if (getConfig().getBoolean("options.auto-update") && getDescription().getVersion().startsWith("Build_STCT - ")) {
+            new GitHubBuildsUpdaterTR(this, getFile(), "SlimeTraditionalTranslation/MiniBlocks/master").start();
         }
 
 
